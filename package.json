@@ -1,7 +1,7 @@
 {
   "name": "kozhindev-test-exchanges",
   "version": "0.1.0",
-  "homepage": "https://archebald241.github.io/kozhindev-test-exchanges",
+  "homepage": "http://archebald241.github.io/kozhindev-test-exchanges",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
