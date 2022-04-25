@@ -1,0 +1,23 @@
+@import 'src/style/variables.scss';
+
+
+nav{
+    width: 100%;
+    background: $background-primary;
+    color: white;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+
+    .dataInfo{
+        display: flex;
+        align-items: center;
+
+        >*{
+            margin: 0 10px;
+        }
+    }
+}

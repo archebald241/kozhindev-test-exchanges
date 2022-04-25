@@ -1,10 +1,17 @@
 import React from 'react';
+import './style/index.scss'
 import ReactDOM from 'react-dom';
-import App from './App';
+import Application from './Application';
+import axios from "axios";
+import {Provider} from "react-redux";
+import {store} from "./store";
+
+
+axios.defaults.baseURL = 'http://api.exchangeratesapi.io/v1/';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App/>
-    </React.StrictMode>,
-    document.getElementById("root")
+    <Provider store={store}>
+        <Application />
+    </Provider>,
+    document.getElementById('root')
 );
