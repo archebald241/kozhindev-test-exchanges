@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    min-width: 700px !important;
+}
+
 main{
     width: 80%;
     margin: 30px auto auto;

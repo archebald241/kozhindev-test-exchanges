@@ -12,9 +12,18 @@ nav{
     font-size: 25px;
     font-weight: 600;
 
+    @media screen and (max-width: 1000px){
+        flex-direction: column;
+    }
+
     .dataInfo{
         display: flex;
         align-items: center;
+
+        @media screen and (max-width: 1000px){
+            flex-direction: column;
+            margin-top: 25px;
+        }
 
         >*{
             margin: 0 10px;

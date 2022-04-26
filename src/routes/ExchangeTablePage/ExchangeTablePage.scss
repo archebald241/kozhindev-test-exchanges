@@ -6,6 +6,7 @@ main{
         border-collapse: collapse;
         width: 100%;
         text-align: center;
+        overflow-x: auto;
 
         tr{
             background: $background;
